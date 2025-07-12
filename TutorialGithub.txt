@@ -1,0 +1,89 @@
+python app.py
+
+notepad .gitignore
+
+Press CTRL+C to quit
+
+------------------------------GITHUB-------------------------------------------------
+
+https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/
+
+1) você já instalou o Git? :  
+
+	git --version
+
+2) Para definir seu nome de usuário, digite e execute estes comandos:
+
+	git config --global user.name "leonpet" 
+e
+	git config --global user.email "Leonel.petter@bol.com.br"
+
+3) Navegar até a pasta:
+	G:
+	cd 'Meu Drive'
+	cd 'Git and GitHub tutorial'
+
+4) inicializar um repositório do seu projeto:
+
+	git init
+
+5) Criar arquivo chamado todo.txt em pasta 'Git and GitHub tutorial'
+MINHA LISTA DE TAREFAS
+
+1. Escrever um artigo.
+2. Programar.
+3. Estudar pelos livros.
+4. Chegar nas aulas a tempo.
+5. Visitar minha tia.
+6. Me candidatar a trabalhos remotos. 
+
+6) Crie um repositório no GitHub:
+Você pode clicar no símbolo + no canto superior direito da página e escolher "New repository" (Novo repositório). Dê um nome ao seu repositório, role para baixo e clique no botão "Create repository" (Criar repositório).
+
+7) Como adicionar arquivos ao Git:
+
+	git add .
+
+   adicionar um arquivo específico:
+
+	git add about.txt
+
+8) Saber em que estado seu arquivo está:
+
+	git status
+
+9) Para confirmar nosso arquivo, usamos o comando:
+
+	git commit -m "first commit"
+
+10) Envie o repositório para o GitHub:
+
+	git remote add origin https://github.com/ihechikara/git-and-github-tutorial.git
+	git branch -M main
+	git push -u origin main
+   
+    Obs: copie do GitHub após criar '+ repositorio', segundo bloco.
+
+11) Adicionar uma nova tarefa à lista de tarefas:
+
+    7. Praticar programação
+
+12) Depois de adicionar a nova tarefa, execute o comando:
+
+	git status
+
+13) Adicionamos o arquivo usando:
+
+	git add .
+
+14) Confirmamos o arquivo executando:
+
+	git commit -m "added new task"
+
+15) Em seguida faça a subida:
+
+	git push -u origin main
+
+16)
+
+
